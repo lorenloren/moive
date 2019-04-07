@@ -1,0 +1,7 @@
+/* 引入模板的css样式 */
+@import "./news-template/new-template.wxss";
+
+.swiper-img{
+  width: 100%;
+}
+

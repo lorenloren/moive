@@ -1,0 +1,7 @@
+<view class='box-con'>
+  <image src='../../images/logo.png'></image>
+  <text class='hello'>hello 李亚雷</text>
+  <view class='kaiqi' bindtap='tiaozhuan'>
+   <text>欢迎开启小程序之旅</text>
+  </view>
+</view>

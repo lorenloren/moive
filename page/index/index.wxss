@@ -1,0 +1,26 @@
+.box-con{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-con image{
+  width: 392rpx;
+  height: 96rpx;
+  margin-top: 100px;
+}
+.hello{
+  margin-top: 50px;
+  font-size: 18px;
+}
+.kaiqi{
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #109D59;
+  color: #109D59;
+  margin-top: 100px;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 3px 5px;
+}

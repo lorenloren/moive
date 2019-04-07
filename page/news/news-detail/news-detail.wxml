@@ -1,0 +1,23 @@
+<!--pages/news/news-detail/news-detail.wxml-->
+<view class="news-detail-container">
+  <image class="head-img" src="../{{ currentNews.img }}"></image>
+  <view class="author-time">
+    <image class="author-avatar" src="../{{currentNews.icon}}"></image>
+    <text class="author-name">{{ currentNews.author }}</text>
+    <text class="const-text">发表于</text>
+    <text class="time">{{ currentNews.time }}</text>
+  </view>
+  <text class="title">{{ currentNews.title }}</text>
+  <view class="tool">
+    <view class="circle-img">
+
+ 
+      <image src="../../../images/sch.png" bindtap='collect' wx:if="{{colled}}"></image> 
+      <image src="../../../images/sc.png" bindtap='collect' wx:else></image> 
+
+      <image class="share-img" src="../../../images/fx.png"></image>
+    </view>
+    <view class="horizon"></view>
+    <text class="detail">{{ currentNews.desc }}</text>
+  </view>
+</view>

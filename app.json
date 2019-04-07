@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "page/index/index",
+    "page/news/news",
+    "page/news/news-detail/news-detail",
+    "page/movie/movie",
+    "page/movie/movie-more/movie-more",
+    "page/movie/movie-detail/movie-detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#109D59"
+  },
+  "tabBar":{
+    "color": "#000000",
+    "selectedColor": "#109D59",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "page/news/news",
+        "text": "新闻",
+        "iconPath": "images/n_t2.png",
+        "selectedIconPath": "images/s_t2.png"
+      },
+      {
+        "pagePath": "page/movie/movie",
+        "text": "电影",
+        "iconPath": "images/n_d1.png",
+        "selectedIconPath": "images/s_d1.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}
