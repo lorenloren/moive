@@ -13,9 +13,11 @@
 点击更多进入各自的列表,点击电影(图片 title star)进入各自的详情页
 
 排行榜
+
 <img src="/images/readme/phb.png" width="200px">
 
 电影详情页
+
 <img src="/images/readme/dyxq.png" width="200px">
 
 ### 项目环境
